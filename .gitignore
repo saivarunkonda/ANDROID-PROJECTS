@@ -1,0 +1,26 @@
+# Ignore local config and secrets
+**/local.properties
+**/store_keys.ps1
+**/.env
+**/.env.*
+**/secrets.*
+**/*.keystore
+**/keystore.jks
+**/secrets.properties
+
+# Build outputs
+**/build/
+**/out/
+**/app/build/
+
+# Gradle/IDE
+.gradle/
+.gradle-cache/
+*.iml
+.idea/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
