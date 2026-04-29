@@ -1,2 +1,3 @@
 rootProject.name = 'contactless-queue'
 include ':app'
+include ':library'
