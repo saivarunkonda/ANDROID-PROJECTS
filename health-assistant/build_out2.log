@@ -1,0 +1,43 @@
+﻿Configuration on demand is an incubating feature.
+Calculating task graph as no configuration cache is available for tasks: assembleDebug
+gradlew.bat : 
+At line:1 char:1
++ & ./gradlew.bat assembleDebug 2>&1 | 
+Out-File -Encoding utf8 build_ou ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: 
+(:St    ring) [], RemoteException
+    + FullyQualifiedErrorId : 
+NativeCommandError
+ 
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'C:\Users\hjbhg\OneDrive\Desktop\pro
+jects\Dart\android_projects\health-assistant\ap
+p\build.gradle' line: 2
+
+* What went wrong:
+An exception occurred applying plugin request 
+[id: 'com.android.application']
+> Failed to apply plugin 
+'com.android.internal.application'.
+   > The option 'android.buildCacheDir' is 
+deprecated.
+     It was removed in version 7.0 of the 
+Android Gradle plugin.
+     The Android-specific build caches were 
+superseded by the Gradle build cache (https://d
+ocs.gradle.org/current/userguide/build_cache.ht
+ml).
+
+* Try:
+> Run with --stacktrace option to get the 
+stack trace.
+> Run with --info or --debug option to get 
+more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+Configuration cache entry stored.

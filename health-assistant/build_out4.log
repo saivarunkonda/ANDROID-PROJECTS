@@ -1,0 +1,134 @@
+﻿Configuration on demand is an incubating feature.
+Calculating task graph as no configuration cache is available for tasks: assembleDebug
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:writeDebugAppMetadata
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:desugarDebugFileDependencies
+> Task :app:validateSigningDebug
+> Task :app:extractDeepLinksDebug
+
+> Task :app:packageDebugResources FAILED
+gradlew.bat : ERROR: C:\Users\hjbhg\OneDrive\De
+sktop\projects\Dart\android_projects\health-ass
+istant\app\src\main\res\values\strings.xml: 
+Resource and asset merger: Found item 
+String/view_details more than one time
+At line:1 char:1
++ & ./gradlew.bat assembleDebug 2>&1 | 
+Out-File -Encoding utf8 build_ou ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E 
+   RROR: C:\Users...e than one time:String) [  
+  ], RemoteException
+    + FullyQualifiedErrorId : NativeCommandErr 
+   or
+ 
+
+> Task :app:javaPreCompileDebug
+
+> Task :app:checkDebugDuplicateClasses
+WARNING: [Processor] Library 'C:\Users\hjbhg\.gradle\caches\modules-2\files-2.1\com.giphy.sdk\ui\2.1.16\ab255a53c814d50176b8502a93d780d87ab69897\ui-2.1.16.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/fragment/app/DialogFragment'
+ Example of support library reference: 'android/support/annotation/VisibleForTesting'
+WARNING: [Processor] Library 'C:\Users\hjbhg\.gradle\caches\modules-2\files-2.1\com.google.android.exoplayer\exoplayer-ui\2.17.1\71e595d092a210f88d9ed4143caa633e06eb7d88\exoplayer-ui-2.17.1.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/core/app/NotificationCompat$Builder'
+ Example of support library reference: 'android/support/v4/media/session/MediaSessionCompat$Token'
+
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugShaders
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+
+> Task :app:processDebugMainManifest FAILED
+[org.tensorflow:tensorflow-lite:2.14.0] C:\Users\hjbhg\.gradle\caches\transforms-3\1723fd22d10b25eed0e932a08345fc55\transformed\jetified-tensorflow-lite-2.14.0\AndroidManifest.xml Warning:
+	Namespace 'org.tensorflow.lite' is used in multiple modules and/or libraries: org.tensorflow:tensorflow-lite:2.14.0, org.tensorflow:tensorflow-lite-api:2.14.0. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+[org.tensorflow:tensorflow-lite-support:0.4.4] C:\Users\hjbhg\.gradle\caches\transforms-3\e8c6951a621f019ca4a16a88e867a3a8\transformed\jetified-tensorflow-lite-support-0.4.4\AndroidManifest.xml Warning:
+	Namespace 'org.tensorflow.lite.support' is used in multiple modules and/or libraries: org.tensorflow:tensorflow-lite-support:0.4.4, org.tensorflow:tensorflow-lite-support-api:0.4.4. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\a
+ndroid_projects\health-assistant\app\src\main\A
+ndroidManifest.xml:116:9-120:19 Error:
+	Missing 'name' key attribute on element 
+package at AndroidManifest.xml:116:9-120:19
+C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\a
+ndroid_projects\health-assistant\app\src\main\A
+ndroidManifest.xml Error:
+	Validation failed, exiting
+
+See https://developer.android.com/r/studio-ui/build/manifest-merger for more information about the manifest merger.
+
+
+> Task :app:mergeDebugResources FAILED
+ERROR: C:\Users\hjbhg\OneDrive\Desktop\projects
+\Dart\android_projects\health-assistant\app\src
+\main\res\values\strings.xml: Resource and 
+asset merger: Found item String/view_details 
+more than one time
+
+FAILURE: Build completed with 3 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task 
+':app:packageDebugResources'.
+> C:\Users\hjbhg\OneDrive\Desktop\projects\Dart
+\android_projects\health-assistant\app\src\main
+\res\values\strings.xml: Error: Found item 
+String/view_details more than one time
+
+* Try:
+> Run with --stacktrace option to get the 
+stack trace.
+> Run with --info or --debug option to get 
+more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+===============================================
+===============================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task 
+':app:processDebugMainManifest'.
+> Manifest merger failed with multiple errors, 
+see logs
+
+* Try:
+> Run with --stacktrace option to get the 
+stack trace.
+> Run with --info or --debug option to get 
+more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+===============================================
+===============================
+
+3: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task 
+':app:mergeDebugResources'.
+> C:\Users\hjbhg\OneDrive\Desktop\projects\Dart
+\android_projects\health-assistant\app\src\main
+\res\values\strings.xml: Error: Found item 
+String/view_details more than one time
+
+* Try:
+> Run with --stacktrace option to get the 
+stack trace.
+> Run with --info or --debug option to get 
+more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+===============================================
+===============================
+
+BUILD FAILED in 2m 9s
+16 actionable tasks: 16 executed
+Configuration cache entry stored.

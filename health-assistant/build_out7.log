@@ -1,0 +1,98 @@
+﻿Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
+Configuration on demand is an incubating feature.
+Calculating task graph as no cached configuration is available for tasks: assembleDebug
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:writeDebugAppMetadata
+> Task :app:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:desugarDebugFileDependencies
+> Task :app:generateDebugResources
+> Task :app:extractDeepLinksDebug
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:validateSigningDebug
+> Task :app:packageDebugResources
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mapDebugSourceSetPaths
+> Task :app:processDebugNavigationResources
+> Task :app:checkDebugAarMetadata
+> Task :app:mergeDebugAssets
+> Task :app:checkDebugDuplicateClasses
+> Task :app:compileDebugNavigationResources
+> Task :app:parseDebugLocalResources
+> Task :app:compressDebugAssets
+
+> Task :app:processDebugMainManifest
+[org.tensorflow:tensorflow-lite:2.14.0] C:\Users\hjbhg\.gradle\caches\8.13\transforms\73bdb17fa569185e4871e3114dfe891c\transformed\jetified-tensorflow-lite-2.14.0\AndroidManifest.xml Warning:
+	Namespace 'org.tensorflow.lite' is used in multiple modules and/or libraries: org.tensorflow:tensorflow-lite:2.14.0, org.tensorflow:tensorflow-lite-api:2.14.0. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+[org.tensorflow:tensorflow-lite-support:0.4.4] C:\Users\hjbhg\.gradle\caches\8.13\transforms\65a891bd09a4edc8d65b583293ce6d30\transformed\jetified-tensorflow-lite-support-0.4.4\AndroidManifest.xml Warning:
+	Namespace 'org.tensorflow.lite.support' is used in multiple modules and/or libraries: org.tensorflow:tensorflow-lite-support:0.4.4, org.tensorflow:tensorflow-lite-support-api:0.4.4. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeExtDexDebug
+> Task :app:mergeLibDexDebug
+> Task :app:processDebugManifestForPackage
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libbutter.so, libc++_shared.so, libduktape.so, libfabricjni.so, libface_detector_v2_jni.so, libfb.so, libfbjni.so, libfolly_futures.so, libfolly_json.so, libgifimage.so, libglog.so, libglog_init.so, libhermes-executor-debug.so, libhermes-executor-release.so, libimagepipeline.so, libjingle_peerconnection_so.so, libjsc.so, libjscexecutor.so, libjsi.so, libjsijniprofiler.so, libjsinspector.so, liblanguage_id_l2c_jni.so, liblogger.so, libmapbufferjni.so, libnative-filters.so, libnative-imagetranscoder.so, libpredictor_jni.so, libreact_codegen_rncore.so, libreact_config.so, libreact_debug.so, libreact_nativemodule_core.so, libreact_render_animations.so, libreact_render_attributedstring.so, libreact_render_componentregistry.so, libreact_render_core.so, libreact_render_debug.so, libreact_render_graphics.so, libreact_render_imagemanager.so, libreact_render_leakchecker.so, libreact_render_mapbuffer.so, libreact_render_mounting.so, libreact_render_runtimescheduler.so, libreact_render_scheduler.so, libreact_render_telemetry.so, libreact_render_templateprocessor.so, libreact_render_textlayoutmanager.so, libreact_render_uimanager.so, libreact_utils.so, libreactnativeblob.so, libreactnativejni.so, libreactperfloggerjni.so, librrc_image.so, librrc_root.so, librrc_text.so, librrc_unimplementedview.so, librrc_view.so, libruntimeexecutor.so, libstatic-webp.so, libtensorflowlite_jni.so, libturbomodulejsijni.so, libyoga.so. Run with --info option to learn more.
+
+> Task :app:processDebugResources
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+gradlew.bat : e: This version (1.5.4) of the 
+Compose Compiler requires Kotlin version 1.9.20 
+but you appear to be using Kotlin version 1.9.10 
+which is not known to be compatible.  Please 
+consult the Compose-Kotlin compatibility map 
+located at https://developer.android.com/jetpack/an
+droidx/releases/compose-kotlin to choose a 
+compatible version pair (or 
+`suppressKotlinVersionCompatibilityCheck` but 
+don't say I didn't warn you!).
+At line:1 char:1
++ & ./gradlew.bat assembleDebug 2>&1 | Out-File 
+-Encoding utf8 build_ou ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (e: Th 
+   is version...n't warn you!).:String) [], Remot  
+  eException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[Incubating] Problems report is available at: file:///C:/Users/hjbhg/OneDrive/Desktop/projects/Dart/android_projects/health-assistant/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task 
+':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.
+kotlin.compilerRunner.GradleCompilerRunnerWithWorke
+rs$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack 
+trace.
+> Run with --info or --debug option to get more 
+log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 5m 46s
+32 actionable tasks: 32 executed
+Configuration cache entry stored.

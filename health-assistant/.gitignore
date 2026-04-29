@@ -1,0 +1,40 @@
+# Gradle files
+.gradle/
+build/
+
+# Local properties
+local.properties
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Build outputs
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+
+# Android Studio generated files
+captures/
+.cxx/
+.externalNativeBuild/
+
+# Node modules (if applicable)
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Gradle wrapper
+gradle-wrapper.jar
+
+# NDK
+.ndkVersion

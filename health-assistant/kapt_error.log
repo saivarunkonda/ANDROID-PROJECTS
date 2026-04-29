@@ -1,0 +1,276 @@
+﻿Initialized native services in: C:\Users\hjbhg\.gradle\native
+Initialized jansi services in: C:\Users\hjbhg\.gradle\native
+Found daemon DaemonInfo{pid=24712, address=[21b8745e-1b57-4789-b2c8-6693d8e29193 port:53156, addresses:[/127.0.0.1]], state=Idle, lastBusy=1775299964852, context=DefaultDaemonContext[uid=7446ee5a-aed0-4542-baa6-3d0d248690d6,javaHome=C:\Program Files\Android\Android Studio1\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\hjbhg\.gradle\daemon,pid=24712,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot (no JDK specified, using current Java home), daemonOpts=[-Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=IN, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=7446ee5a-aed0-4542-baa6-3d0d248690d6,javaHome=C:\Program Files\Android\Android Studio1\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\hjbhg\.gradle\daemon,pid=24712,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 8696). The daemon log file: C:\Users\hjbhg\.gradle\daemon\8.13\daemon-8696.out.log
+Starting 2nd build in daemon [uptime: 7 mins 8.783 secs, performance: 98%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 12 worker leases.
+Configuration on demand is an incubating feature.
+Invalidating in-memory cache of C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\.gradle\8.13\fileHashes\fileHashes.bin
+Invalidating in-memory cache of C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\.gradle\8.13\fileHashes\resourceHashesCache.bin
+Invalidating in-memory cache of C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\.gradle\buildOutputCleanup\outputFiles.bin
+Invalidating in-memory cache of C:\Users\hjbhg\.gradle\caches\journal-1\file-access.bin
+Calculating task graph as no cached configuration is available for tasks: app:kaptDebugKotlin
+Now considering [C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Invalidating in-memory cache of C:\Users\hjbhg\.gradle\caches\8.13\fileHashes\fileHashes.bin
+Invalidating in-memory cache of C:\Users\hjbhg\.gradle\caches\8.13\fileHashes\resourceHashesCache.bin
+Settings evaluated using settings file 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\build.gradle'.
+Included projects: [root project 'Health Assistant', project ':app']
+Task path 'app:kaptDebugKotlin' matched project ':app'
+
+> Configure project :
+Evaluating root project 'Health Assistant' using build file 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\build.gradle'.
+Resolved plugin [id: 'com.android.application', version: '8.13.2', apply: false]
+Resolved plugin [id: 'com.android.library', version: '8.13.2', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.20', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\build.gradle'.
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'org.jetbrains.kotlin.android']
+Resolved plugin [id: 'kotlin-kapt']
+Resolved plugin [id: 'kotlin-parcelize']
+Resolved plugin [id: 'dagger.hilt.android.plugin']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle81 variant
+Task name matched 'kaptDebugKotlin'
+Selected primary task 'kaptDebugKotlin' from project :app
+All projects evaluated.
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':app:generateDebugBuildConfig', task ':app:checkDebugAarMetadata', task ':app:processDebugNavigationResources', task ':app:compileDebugNavigationResources', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:kaptGenerateStubsDebugKotlin', task ':app:kaptDebugKotlin']
+Tasks that were excluded: []
+Failed to get resource: HEAD. [HTTP HTTP/1.1 401 Unauthorized: https://www.jitpack.io/org/jitsi/react/jitsi-meet-sdk/8.1.2/jitsi-meet-sdk-8.1.2.pom)]
+Failed to get resource: HEAD. [HTTP HTTP/1.1 401 Unauthorized: https://www.jitpack.io/org/jitsi/react/jitsi-meet-sdk/8.1.2/jitsi-meet-sdk-8.1.2.pom)]
+Ignoring listeners of task graph ready event, as this build (:) has already executed work.
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 3,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[included builds,5,main]) started.
+Resolve mutations for :app:preBuild (Thread[Execution worker Thread 4,5,main]) started.
+:app:preBuild (Thread[Execution worker Thread 3,5,main]) started.
+Invalidating in-memory cache of C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\.gradle\8.13\executionHistory\executionHistory.bin
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[Execution worker Thread 3,5,main]) started.
+:app:preDebugBuild (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:generateDebugBuildConfig (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :app:processDebugNavigationResources (Thread[Execution worker Thread 8,5,main]) started.
+Resolve mutations for :app:generateDebugResValues (Thread[Execution worker,5,main]) started.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 7,5,main]) started.
+:app:generateDebugResValues (Thread[Execution worker,5,main]) started.
+:app:checkDebugAarMetadata (Thread[Execution worker Thread 4,5,main]) started.
+:app:generateDebugBuildConfig (Thread[Execution worker Thread 3,5,main]) started.
+:app:processDebugNavigationResources (Thread[Execution worker Thread 8,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+Caching disabled for task ':app:generateDebugBuildConfig' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugBuildConfig' as it is up-to-date.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:generateDebugResources (Thread[Execution worker,5,main]) started.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+:app:generateDebugResources (Thread[Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :app:mergeDebugResources (Thread[Execution worker,5,main]) started.
+Resolve mutations for :app:packageDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+:app:processDebugMainManifest (Thread[Execution worker Thread 2,5,main]) started.
+:app:packageDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+:app:mergeDebugResources (Thread[Execution worker,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[Execution worker Thread 8,5,main]) started.
+:app:compileDebugNavigationResources (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[Execution worker Thread 7,5,main]) started.
+:app:parseDebugLocalResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[Execution worker Thread 2,5,main]) started.
+:app:processDebugManifest (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[Execution worker Thread 2,5,main]) started.
+:app:processDebugManifestForPackage (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[Execution worker Thread 2,5,main]) started.
+:app:processDebugResources (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:kaptGenerateStubsDebugKotlin (Thread[Execution worker Thread 2,5,main]) started.
+:app:kaptGenerateStubsDebugKotlin (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:kaptGenerateStubsDebugKotlin
+Caching disabled for task ':app:kaptGenerateStubsDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptGenerateStubsDebugKotlin' is not up-to-date because:
+  Value of input property 'kotlinJavaToolchainProvider.javaVersion' has changed for task ':app:kaptGenerateStubsDebugKotlin'
+The input changes require a full rebuild for incremental task ':app:kaptGenerateStubsDebugKotlin'.
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+i: found daemon on port 17193 (314817 ms old), trying to connect
+i: connected to the daemon
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=false, modifiedFiles=null, deletedFiles=null, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\build\kotlin\kaptGenerateStubsDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\build\kotlin\kaptGenerateStubsDebugKotlin\local-state\build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, outputFiles=[C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\build\tmp\kapt3\incrementalData\debug, C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\build\tmp\kapt3\stubs\debug, C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\build\kotlin\kaptGenerateStubsDebugKotlin\cacheable, C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\build\kotlin\kaptGenerateStubsDebugKotlin\local-state])
+Resolve mutations for :app:kaptDebugKotlin (Thread[Execution worker Thread 2,5,main]) started.
+:app:kaptDebugKotlin (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:kaptDebugKotlin
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\main\kotlin', not found
+file or directory 'C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant\app\src\debug\java', not found
+Caching disabled for task ':app:kaptDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:kaptDebugKotlin'.
+Running kapt annotation processing using the Gradle Worker API
+Using workers NONE isolation mode to run kapt
+
+0 problems were found storing the configuration cache.
+
+See the complete report at file:///C:/Users/hjbhg/OneDrive/Desktop/projects/Dart/android_projects/health-assistant/build/reports/configuration-cache/ccl4x0ppema9r8v84hb8qb5v4/cb0e0196g09ydv5qjwh97wixp/configuration-cache-report.html
+
+[Incubating] Problems report is available at: file:///C:/Users/hjbhg/OneDrive/Desktop/projects/Dart/android_projects/health-assistant/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 15s
+19 actionable tasks: 3 executed, 16 up-to-date
+Watched directory hierarchies: [C:\Users\hjbhg\OneDrive\Desktop\projects\Dart\android_projects\health-assistant]
+Configuration cache entry stored.

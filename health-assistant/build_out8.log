@@ -1,0 +1,283 @@
+﻿Starting a Gradle Daemon (subsequent builds will be faster)
+Configuration on demand is an incubating feature.
+Calculating task graph as configuration cache cannot be reused because file 'build.gradle' has changed.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:writeDebugAppMetadata
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:desugarDebugFileDependencies
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:extractDeepLinksDebug
+> Task :app:generateDebugResources
+> Task :app:validateSigningDebug
+> Task :app:javaPreCompileDebug
+> Task :app:packageDebugResources
+
+> Task :app:checkDebugDuplicateClasses
+WARNING: [Processor] Library 'C:\Users\hjbhg\.gradle\caches\modules-2\files-2.1\com.google.android.exoplayer\exoplayer-ui\2.17.1\71e595d092a210f88d9ed4143caa633e06eb7d88\exoplayer-ui-2.17.1.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/core/app/NotificationCompat$Builder'
+ Example of support library reference: 'android/support/v4/media/session/MediaSessionCompat$Token'
+
+> Task :app:mergeDebugShaders
+
+> Task :app:processDebugMainManifest
+WARNING: [Processor] Library 'C:\Users\hjbhg\.gradle\caches\modules-2\files-2.1\com.giphy.sdk\ui\2.1.16\ab255a53c814d50176b8502a93d780d87ab69897\ui-2.1.16.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
+ Example of androidX reference: 'androidx/fragment/app/DialogFragment'
+ Example of support library reference: 'android/support/annotation/VisibleForTesting'
+
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugAarMetadata
+> Task :app:processDebugNavigationResources
+> Task :app:compileDebugNavigationResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:parseDebugLocalResources
+
+> Task :app:processDebugMainManifest
+[org.tensorflow:tensorflow-lite:2.14.0] C:\Users\hjbhg\.gradle\caches\8.13\transforms\09cf326925b20eb3aa7fd03824082754\transformed\jetified-tensorflow-lite-2.14.0\AndroidManifest.xml Warning:
+	Namespace 'org.tensorflow.lite' is used in multiple modules and/or libraries: org.tensorflow:tensorflow-lite:2.14.0, org.tensorflow:tensorflow-lite-api:2.14.0. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+[org.tensorflow:tensorflow-lite-support:0.4.4] C:\Users\hjbhg\.gradle\caches\8.13\transforms\39b6304a164f15cb3c5558409798dfed\transformed\jetified-tensorflow-lite-support-0.4.4\AndroidManifest.xml Warning:
+	Namespace 'org.tensorflow.lite.support' is used in multiple modules and/or libraries: org.tensorflow:tensorflow-lite-support:0.4.4, org.tensorflow:tensorflow-lite-support-api:0.4.4. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeDebugAssets
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugNativeLibs
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libbutter.so, libc++_shared.so, libduktape.so, libfabricjni.so, libface_detector_v2_jni.so, libfb.so, libfbjni.so, libfolly_futures.so, libfolly_json.so, libgifimage.so, libglog.so, libglog_init.so, libhermes-executor-debug.so, libhermes-executor-release.so, libimagepipeline.so, libjingle_peerconnection_so.so, libjsc.so, libjscexecutor.so, libjsi.so, libjsijniprofiler.so, libjsinspector.so, liblanguage_id_l2c_jni.so, liblogger.so, libmapbufferjni.so, libnative-filters.so, libnative-imagetranscoder.so, libpredictor_jni.so, libreact_codegen_rncore.so, libreact_config.so, libreact_debug.so, libreact_nativemodule_core.so, libreact_render_animations.so, libreact_render_attributedstring.so, libreact_render_componentregistry.so, libreact_render_core.so, libreact_render_debug.so, libreact_render_graphics.so, libreact_render_imagemanager.so, libreact_render_leakchecker.so, libreact_render_mapbuffer.so, libreact_render_mounting.so, libreact_render_runtimescheduler.so, libreact_render_scheduler.so, libreact_render_telemetry.so, libreact_render_templateprocessor.so, libreact_render_textlayoutmanager.so, libreact_render_uimanager.so, libreact_utils.so, libreactnativeblob.so, libreactnativejni.so, libreactperfloggerjni.so, librrc_image.so, librrc_root.so, librrc_text.so, librrc_unimplementedview.so, librrc_view.so, libruntimeexecutor.so, libstatic-webp.so, libtensorflowlite_jni.so, libturbomodulejsijni.so, libyoga.so. Run with --info option to learn more.
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeLibDexDebug
+> Task :app:compressDebugAssets
+> Task :app:processDebugResources
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+gradlew.bat : e: file:///C:/Users/hjbhg/OneDrive/De
+sktop/projects/Dart/android_projects/health-assista
+nt/app/src/main/java/com/healthassistant/HealthAssi
+stantApplication.kt:20:41 Unresolved reference: 
+BuildConfig
+At line:1 char:1
++ & ./gradlew.bat assembleDebug 2>&1 | Out-File 
+-Encoding utf8 build_ou ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (e: fi 
+   le:///C:/U...ce: BuildConfig:String) [], Remot  
+  eException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:50:33 Unresolved reference: sdkStatus
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:57:20 Type mismatch: inferred type is 
+Set<String> but Set<HealthPermission> was expected
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:90:17 Cannot find a parameter with this 
+name: limit
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:109:17 Cannot find a parameter with this 
+name: limit
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:138:71 Unresolved reference. None of the 
+following candidates is applicable because of 
+receiver type mismatch: 
+public inline fun String.toDouble(): Double 
+defined in kotlin.text
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:153:17 Cannot find a parameter with this 
+name: limit
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:180:17 Cannot find a parameter with this 
+name: limit
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:184:57 Unresolved reference. None of the 
+following candidates is applicable because of 
+receiver type mismatch: 
+public inline fun String.toDouble(): Double 
+defined in kotlin.text
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/health/HealthConnectMana
+ger.kt:199:17 Cannot find a parameter with this 
+name: limit
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/ml/AnomalyDetectionManag
+er.kt:95:30 Type mismatch: inferred type is Float 
+but Double was expected
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/screens/DashboardScreen.
+kt:293:26 Unresolved reference: background
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/screens/HealthDataScreen
+.kt:184:5 This material API is experimental and is 
+likely to change or to be removed in the future.
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:34:29 Unresolved reference: URL
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:37:18 Unresolved reference: 
+setWelcomePageEnabled
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:61:18 Unresolved reference: setDisplayName
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:69:31 Overload resolution ambiguity: 
+public open fun launch(p0: Context!, p1: String!): 
+Unit defined in 
+org.jitsi.meet.sdk.JitsiMeetActivity
+public open fun launch(p0: Context!, p1: 
+JitsiMeetConferenceOptions!): Unit defined in 
+org.jitsi.meet.sdk.JitsiMeetActivity
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:87:18 Unresolved reference: setDisplayName
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:95:31 Overload resolution ambiguity: 
+public open fun launch(p0: Context!, p1: String!): 
+Unit defined in 
+org.jitsi.meet.sdk.JitsiMeetActivity
+public open fun launch(p0: Context!, p1: 
+JitsiMeetConferenceOptions!): Unit defined in 
+org.jitsi.meet.sdk.JitsiMeetActivity
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:111:14 Unresolved reference: setDisplayName
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:118:24 Cannot access 'initialize': it is 
+private in 'JitsiMeetView'
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:119:24 Unresolved reference: listener
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:127:28 Unresolved reference: leave
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:139:24 Unresolved reference: toggleAudio
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:143:24 Unresolved reference: toggleVideo
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:147:24 Unresolved reference: switchCamera
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:151:24 Unresolved reference: setAudioMuted
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:155:24 Unresolved reference: setVideoMuted
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:176:16 Object is not abstract and does not 
+implement abstract member public abstract fun 
+onRequestPermissionsResult(p0: Int, p1: 
+Array<(out) String!>, p2: IntArray): Unit defined 
+in org.jitsi.meet.sdk.JitsiMeetActivityInterface
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:177:13 'onConferenceJoined' overrides nothing
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:185:13 'onConferenceTerminated' overrides 
+nothing
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:190:13 'onConferenceWillJoin' overrides nothing
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:194:13 'onParticipantJoined' overrides nothing
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/telehealth/JitsiManager.
+kt:203:13 'onParticipantLeft' overrides nothing
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/viewmodels/AnomalyDetect
+ionViewModel.kt:104:38 Unresolved reference: id
+e: file:///C:/Users/hjbhg/OneDrive/Desktop/projects
+/Dart/android_projects/health-assistant/app/src/mai
+n/java/com/healthassistant/viewmodels/AnomalyDetect
+ionViewModel.kt:104:52 Unresolved reference: id
+
+> Task :app:compileDebugKotlin FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/hjbhg/OneDrive/Desktop/projects/Dart/android_projects/health-assistant/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task 
+':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.
+kotlin.compilerRunner.GradleCompilerRunnerWithWorke
+rs$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack 
+trace.
+> Run with --info or --debug option to get more 
+log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 4m 18s
+33 actionable tasks: 33 executed
+Configuration cache entry stored.

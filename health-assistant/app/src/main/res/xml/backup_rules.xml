@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include health data for backup -->
+    <include domain="database" path="health_database"/>
+    <include domain="sharedpref" path="user_preferences.xml"/>
+    
+    <!-- Exclude sensitive data from backup -->
+    <exclude domain="sharedpref" path="auth_tokens.xml"/>
+    <exclude domain="file" path="temp/"/>
+    <exclude domain="cache" path="image_cache/"/>
+</full-backup-content>

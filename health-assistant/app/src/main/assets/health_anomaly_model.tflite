@@ -1,0 +1,17 @@
+# This is a placeholder file for the TensorFlow Lite model
+# In a production app, you would replace this with an actual .tflite model file
+# The model should be trained to detect anomalies in health data
+
+# Model specifications:
+# Input: 10 health features (heart_rate, steps, sleep_hours, sleep_quality, 
+#        active_calories, systolic_bp, diastolic_bp, oxygen_saturation, weight, stress_level)
+# Output: Anomaly score (0.0 - 1.0)
+
+# To create a real model:
+# 1. Collect health data training set
+# 2. Train anomaly detection model (e.g., Autoencoder, Isolation Forest)
+# 3. Convert to TensorFlow Lite format
+# 4. Place the .tflite file in this directory
+
+# For now, the AnomalyDetectionManager will use a simple rule-based approach
+# when this file is not available as a proper TFLite model.
