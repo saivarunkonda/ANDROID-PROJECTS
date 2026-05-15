@@ -187,13 +187,13 @@ ProGuard configuration is defined in `proguard-rules.pro` to:
 
 ## License
 
-[Add your license information here]
+This project does not currently include an explicit open-source license. Add a LICENSE file before public distribution.
 
 ## Contact & Support
 
 For issues, questions, or suggestions, please contact:
-- **Project Owner**: [Add contact info]
-- **Email**: [Add email]
+- **Project Owner**: me
+- **Email**: saivarunkonda007@gmail.com
 
 ---
 
