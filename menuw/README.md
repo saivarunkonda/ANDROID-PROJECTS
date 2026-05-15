@@ -187,7 +187,7 @@ ProGuard configuration is defined in `proguard-rules.pro` to:
 
 ## License
 
-This project does not currently include an explicit open-source license. Add a LICENSE file before public distribution.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact & Support
 
